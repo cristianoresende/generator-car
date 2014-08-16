@@ -21,7 +21,7 @@ namespace Generator
             do
             {
 
-                Console.Clear(); //Limpando a tela 
+                Console.Clear(); 
 
                 Console.Write("\t**********************************************************");
                 Console.Write("\n\t*** Programa que gera a próxima sequência de uma placa ***");
@@ -41,9 +41,6 @@ namespace Generator
 
                 Console.Write("\nDigite os outros 3 dígitos: ");
                 digitos = int.Parse(Console.ReadLine());
-
-
-                //Realizando os cálculos             
 
 
                 if (digitos < 10)
