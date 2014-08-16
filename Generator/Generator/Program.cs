@@ -21,7 +21,7 @@ namespace Generator
             do
             {
 
-                Console.Clear(); //Limpando a tela caso o usuário deseje iniciar um novo cálculo
+                Console.Clear(); //Limpando a tela 
 
                 Console.Write("\t**********************************************************");
                 Console.Write("\n\t*** Programa que gera a próxima sequência de uma placa ***");
